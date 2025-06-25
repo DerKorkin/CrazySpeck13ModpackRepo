@@ -1,2 +1,2 @@
 # CrazySpeck13ModpackRepo
-A Repo for my CS13 Modpack
+The Storage- and Update-Repo for my CS12 Modpack
