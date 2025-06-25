@@ -1,0 +1,34 @@
+{
+  "-1": {
+    "name": "the_nether",
+    "distance": 5,
+    "groups": [
+      "netherOv"
+    ],
+    "milkyWayOrigins": {
+      "NORMAL": 2
+    }
+  },
+  "0": {
+    "name": "overworld",
+    "distance": 0,
+    "groups": [
+      "netherOv"
+    ],
+    "milkyWayOrigins": {}
+  },
+  "1": {
+    "name": "the_end",
+    "distance": 10,
+    "groups": [],
+    "milkyWayOrigins": {
+      "NORMAL": 1
+    }
+  },
+  "-343800852": {
+    "name": "Spectre",
+    "distance": -1719004260,
+    "groups": [],
+    "milkyWayOrigins": {}
+  }
+}

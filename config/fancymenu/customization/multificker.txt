@@ -1,0 +1,37 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMultiplayer
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = mods/dustbaby.gif
+  orientation = mid-left
+  x = 5
+  width = 170
+  actionid = 7fb5e0e5-01b4-430f-b598-12c8df898d641750863596619
+  action = addtexture
+  y = -63
+  height = 126
+}
+
+customization {
+  path = mods/dustbaby.gif
+  orientation = mid-right
+  x = -175
+  width = 170
+  actionid = 3fd41cba-606d-47b1-b5e5-800cd4a1f22e1750863662319
+  action = addtexture
+  y = -63
+  height = 126
+}
+

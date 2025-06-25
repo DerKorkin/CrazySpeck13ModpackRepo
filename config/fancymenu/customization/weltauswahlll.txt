@@ -1,0 +1,68 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiWorldSelection
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=424972%
+  orientation = element
+  orientation_element = vanillabtn:346948
+  x = 75
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=424972%
+  width = 158
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=504972%
+  action = hidebutton
+}
+
+customization {
+  path = mods/vapen.jpg
+  orientation = mid-left
+  x = 9
+  width = 160
+  actionid = 3ed3b2e5-8cd3-4115-a6d2-bfa66e31a0981750863290119
+  action = addtexture
+  y = -55
+  height = 111
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Einzelspieler ist immernoch sehr%n%komisch und läuft Kaka manchmal.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 3ed3b2e5-8cd3-4115-a6d2-bfa66e31a0981750863290119
+  x = -1
+  width = 190
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 68291553-c71b-44e2-9922-0e86c6b767d41750863305969
+  y = -23
+  alignment = left
+  base_color = #ff0000
+  height = 23
+}
+

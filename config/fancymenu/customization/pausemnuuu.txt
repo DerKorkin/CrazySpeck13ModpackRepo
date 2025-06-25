@@ -1,0 +1,115 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiIngameMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = bottom-centered
+  x = -100
+  action = movebutton
+  y = -47
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_advancements_button
+  x = 0
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  width = 139
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_pausescreen_mods_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_advancements_button
+  x = 142
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_pausescreen_mods_button%
+  width = 58
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_pausescreen_mods_button%
+  action = setbuttonlabel
+  value = Mods
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_pausescreen_mods_button%
+  action = setbuttondescription
+  description = Nichts ändern.
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_return_to_game_button
+  x = 144
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  width = 57
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  path = mods/cs13logo.png
+  orientation = top-centered
+  x = -134
+  width = 269
+  actionid = d81b4b30-d574-42f9-8c42-5f92bb94140c1750781313422
+  action = addtexture
+  y = 20
+  height = 59
+}
+
+customization {
+  hoversound = mods/shavingballs.wav
+  orientation = top-left
+  restartbackgroundanimations = true
+  backgroundhovered = mods/rasierung.png
+  label = Hacks
+  loopbackgroundanimations = true
+  hoverlabel =        
+  x = 322
+  width = 38
+  action = addbutton
+  actionid = 36eb8a69-0c04-4256-ad55-227dd06facec1750781652975
+  y = 116
+  height = 20
+}
+
