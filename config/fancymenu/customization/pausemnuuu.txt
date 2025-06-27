@@ -99,17 +99,39 @@ customization {
 
 customization {
   hoversound = mods/shavingballs.wav
-  orientation = top-left
+  orientation = element
   restartbackgroundanimations = true
   backgroundhovered = mods/rasierung.png
   label = Hacks
   loopbackgroundanimations = true
   hoverlabel =        
-  x = 322
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_advancements_button
+  x = 102
   width = 38
   action = addbutton
   actionid = 36eb8a69-0c04-4256-ad55-227dd06facec1750781652975
-  y = 116
+  y = 0
   height = 20
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = TIPP: Falls deine Maus nicht funktioniert,%n%gib den Befehl "/rescan" ein und klicke%n%einmal, dann müsste es gehen.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_options_button
+  x = -15
+  width = 231
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 87c2f6d6-65f9-4242-b346-a007d25d17c71750967297452
+  y = 31
+  alignment = centered
+  base_color = #f08000
+  height = 40
 }
 
